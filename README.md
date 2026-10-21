@@ -1,10 +1,10 @@
 # Lab 4: An LLM Extraction You Can Trust
 
 - **Group Members:**
-  1. Pollux Gronier — Student ID: `B00822392`
-  2. Saty Viard Laroque — Student ID: `B00822312`
-  3. Fabrice Afopa — Student ID: `B00817356`
-  4. Eliott Beghin — Student ID: `B00824999`
+  - Pollux Gronier — Student ID: `B00822392`
+  - Saty Viard Laroque — Student ID: `B00822312`
+  - Fabrice Afopa — Student ID: `B00817356`
+  - Eliott Beghin — Student ID: `B00824999`
 
 ---
 
