@@ -1,0 +1,65 @@
+{
+  "report": "Aurelia Steel Integrated Report 2024 (fictional)",
+  "chunks": [
+    "Chairman's letter. 2024 was a year of difficult markets for European steel, with weak demand from construction and automotive customers and strong import competition.",
+    "About this report. Greenhouse gas reporting follows the GHG Protocol. Scope 1 covers emissions from sources we own or control, Scope 2 covers purchased electricity and heat, and Scope 3 covers our value chain.",
+    "Operational performance. Our three integrated sites produced 12.6 million tonnes of crude steel in 2024, down 3% on 2023 because of a planned blast furnace reline at the Linz-Nord site.",
+    "Climate performance. Direct greenhouse gas emissions from our blast furnaces, coke ovens and sinter plants totalled 24.19 MtCO2e in 2024, an intensity of 1.92 tCO2e per tonne of crude steel.",
+    "Energy. Purchased electricity amounted to 3.4 TWh. Market-based emissions from purchased electricity were 1.31 MtCO2e, thanks to new renewable power purchase agreements.",
+    "Targets. We are committed to reaching net zero greenhouse gas emissions by 2050, with an interim target to reduce Scope 1 and 2 emissions by 35% by 2030 against a 2018 baseline.",
+    "Transition plan. We will replace two blast furnaces with hydrogen-ready direct reduced iron plants and electric arc furnaces. Planned capital expenditure is EUR 3.2 billion between 2025 and 2030.",
+    "Carbon pricing. Our installations are covered by the EU Emissions Trading System. Free allocation will be phased out as the Carbon Border Adjustment Mechanism is phased in from 2026 to 2034.",
+    "Sensitivity analysis. Each EUR 10 per tonne increase in the carbon price would reduce EBITDA by about EUR 48 million at current free allocation levels, and by more as free allocation declines.",
+    "Physical risk. Two of our three sites are located on major rivers. An assessment of riverine inundation under high-warming scenarios identified the Linz-Nord site as the most exposed.",
+    "Water. Total water withdrawal was 41 million cubic metres, of which 92% was returned to the source after treatment.",
+    "Workforce. Aurelia Steel employs 18,400 people. The lost-time injury frequency rate improved to 1.1 per million hours worked.",
+    "Scope 3. Value-chain emissions are dominated by purchased coal, coke and iron ore pellets and were estimated at 7.8 MtCO2e.",
+    "Financial highlights. Revenue was EUR 11.9 billion and EBITDA EUR 1.05 billion, with a net debt to EBITDA ratio of 1.4.",
+    "Governance. The Sustainability Committee of the Board reviews progress on climate targets every quarter, and 20% of the executive bonus is linked to emission reductions.",
+    "Assurance. Greenhouse gas figures in this report received limited assurance from an independent auditor."
+  ],
+  "queries": [
+    {
+      "qid": "Q1",
+      "query": "What were Scope 1 emissions in 2024?",
+      "relevant": [
+        3
+      ]
+    },
+    {
+      "qid": "Q2",
+      "query": "net zero target year",
+      "relevant": [
+        5
+      ]
+    },
+    {
+      "qid": "Q3",
+      "query": "crude steel production 2024",
+      "relevant": [
+        2
+      ]
+    },
+    {
+      "qid": "Q4",
+      "query": "investment in hydrogen DRI capex",
+      "relevant": [
+        6
+      ]
+    },
+    {
+      "qid": "Q5",
+      "query": "impact of the carbon price on EBITDA",
+      "relevant": [
+        8
+      ]
+    },
+    {
+      "qid": "Q6",
+      "query": "flooding exposure of our plants",
+      "relevant": [
+        9
+      ]
+    }
+  ]
+}
