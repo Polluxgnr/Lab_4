@@ -1,10 +1,14 @@
 # Lab 4: An LLM Extraction You Can Trust
+**AI for Data Analysis and Management / Climate Finance**
 
+- **Group Name:** `aidams-lab4-gronier-viardlaroque-afopa-beghin`
+- **Submitter:** Pollux Gronier (`B00822392`)
 - **Group Members:**
   - Pollux Gronier — Student ID: `B00822392`
   - Saty Viard Laroque — Student ID: `B00822312`
   - Fabrice Afopa — Student ID: `B00817356`
   - Eliott Beghin — Student ID: `B00824999`
+- **Repository:** [https://github.com/Polluxgnr/Lab_4](https://github.com/Polluxgnr/Lab_4)
 
 ---
 
@@ -34,11 +38,11 @@ The lab treats the LLM as a **measurement instrument** with measurable uncertain
 
 ### 2. Data Files
 
-The notebook expects the following JSON data files in either `./data/` or the root directory:
-- `excerpts.json`
-- `gold_labels.json`
-- `recorded_responses.json`
-- `aurelia_report_chunks.json`
+The notebook loads JSON data files from `./data/`:
+- `data/excerpts.json`
+- `data/gold_labels.json`
+- `data/recorded_responses.json`
+- `data/aurelia_report_chunks.json`
 
 ### 3. Execution
 
@@ -58,7 +62,7 @@ jupyter nbconvert --to notebook --execute --inplace lab4.ipynb
 | Metric / Experiment | Value |
 |---|---|
 | **Greedy Field Accuracy** | **86.7%** (104 / 120 fields) |
-| **Greedy without E11 syntax crash** | **91.2%** (104 / 114 fields) |
+| **Greedy without E11 type-validation error** | **91.2%** (104 / 114 fields) |
 | **Worst Greedy Field** | `scope1_tco2` (**75.0%**) |
 | **Beta-Binomial 90% Credible Interval** | **[80.6%, 90.8%]** |
 | **Bootstrap 90% Interval (over excerpts)** | **[77.5%, 93.3%]** |
@@ -68,11 +72,11 @@ jupyter nbconvert --to notebook --execute --inplace lab4.ipynb
 | **Downstream Absolute Scope 1 Error** | **92.234 MtCO2e** (38.1% of true portfolio total) |
 | **Median Intensity (LLM vs Gold)** | **1.895** vs **1.865** tCO2/t steel (1.845 vs 1.878 on 16 common) |
 | **Majority Vote Accuracy (5 samples)** | **95.0%** (114 / 120 fields) |
-| **Majority Vote Bootstrap 90% Interval** | **[90.8%, 98.3%]** |
+| **Majority Vote Bootstrap 90% Interval** | **[91.7%, 98.3%]** |
 | **Accuracy at 5/5 Agreement** | **97.8%** (91 / 93 fields; error rate 2.2%) |
 | **Accuracy at 4/5 Agreement** | **93.3%** (14 / 15 fields; error rate 6.7%) |
 | **Accuracy at $\le$3/5 Agreement** | **75.0%** (9 / 12 fields; error rate 25.0%) |
-| **Cheapest Baseline Review Policy** | **Policy P1** (EUR 408 total cost: EUR 108 review + EUR 300 residual error cost) |
+| **Cheapest Baseline Review Policy** | **Policy P1** (EUR 408 total: EUR 108 review + EUR 300 residual error cost) |
 | **Extension Policy P3 (P1 + unit trigger)** | **EUR 148** (37 fields reviewed, 0 residual errors; in-sample optimistic) |
 | **TF-IDF Retrieval hit@1 / hit@3** | **66.7%** (4 / 6 queries; Q1 and Q6 fail) |
 | **Dense Embeddings hit@1 / hit@3** | **83.3%** (5 / 6 queries; only Q1 fails) |
