@@ -1,15 +1,10 @@
 # Lab 4: An LLM Extraction You Can Trust
 
-## Group Information
-
-- **Group / Repo Name:** `aidams-lab4-gronier-viardlaroque-afopa-beghin`
-- **Submitter:** Pollux Gronier
 - **Group Members:**
   1. Pollux Gronier — Student ID: `B00822392`
   2. Saty Viard Laroque — Student ID: `B00822312`
   3. Fabrice Afopa — Student ID: `B00817356`
   4. Eliott Beghin — Student ID: `B00824999`
-- **Repo URL:** `https://github.com/Polluxgnr/Lab_4`
 
 ---
 
