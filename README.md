@@ -68,6 +68,7 @@ jupyter nbconvert --to notebook --execute --inplace lab4.ipynb
 | **Downstream Absolute Scope 1 Error** | **92.234 MtCO2e** (38.1% of true portfolio total) |
 | **Median Intensity (LLM vs Gold)** | **1.895** vs **1.865** tCO2/t steel (1.845 vs 1.878 on 16 common) |
 | **Majority Vote Accuracy (5 samples)** | **95.0%** (114 / 120 fields) |
+| **Majority Vote Bootstrap 90% Interval** | **[90.8%, 98.3%]** |
 | **Accuracy at 5/5 Agreement** | **97.8%** (91 / 93 fields; error rate 2.2%) |
 | **Accuracy at 4/5 Agreement** | **93.3%** (14 / 15 fields; error rate 6.7%) |
 | **Accuracy at $\le$3/5 Agreement** | **75.0%** (9 / 12 fields; error rate 25.0%) |
